@@ -371,3 +371,10 @@ des autres routes, les fichiers Docker et la documentation.
 
 Les fonctionnalités métier et le système complet d’accès commencent
 dans les tâches suivantes.
+
+## Commandes du socle T01
+
+- Frontend (`frontend/`) : `npm ci`, `npm run lint`, `npm run typecheck`, `npm run build`, `npm run test:e2e`.
+- Backend (`backend/`, JDK 21 + Docker) : `./mvnw -B verify` ou `./mvnw.cmd -B verify` sous PowerShell. Tests PostgreSQL Testcontainers obligatoires, aucun H2 ni skip automatique.
+- Racine : `docker compose config --quiet`, `docker compose up --build -d --wait --wait-timeout 180`.
+- Voir README pour les variables, le proxy Cloud et les commandes Windows. Préserver les volumes.

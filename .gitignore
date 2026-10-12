@@ -1,0 +1,13 @@
+# Local configuration and generated output
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+backend/target/
+.idea/
+.vscode/
+*.log
+playwright-report/
+test-results/
+.DS_Store

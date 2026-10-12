@@ -4,8 +4,8 @@ Plan issu du PRD, Design et Tech Rules.
 
 ## Tâches
 
-- [ ] **T01 — Bootstrap** : versions compatibles, dépôt, frontend/backend, PostgreSQL/Docker, migration, README et CI.  
-  **Preuve** : build et lancement reproductibles.
+- [x] **T01 — Bootstrap** : versions compatibles, dépôt, frontend/backend, PostgreSQL/Docker, migration, README et CI.
+  **Preuve** : npm ci/lint/typecheck/build réussis ; Maven verify (4 tests PostgreSQL) ; Flyway et API 200/401 ; Compose complet healthy ; 2 tests navigateur réussis dans chacun des deux modes. [Preuves et limites](verification-t01.md). CI préparée, exécution GitHub non déclenchée (aucun push). Commandes PowerShell documentées, non exécutées ici.
 
 - [ ] **T02 — Identités/sessions** : login/logout, comptes fictifs, verrouillage, CSRF et révocation.  
   **Preuve** : ancienne session refusée après départ.
