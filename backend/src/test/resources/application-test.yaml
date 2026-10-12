@@ -1,0 +1,4 @@
+# Connection details are supplied by PostgreSQL Testcontainers through DynamicPropertySource.
+spring:
+  jpa:
+    open-in-view: false

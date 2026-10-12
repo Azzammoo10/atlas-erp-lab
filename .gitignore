@@ -1,0 +1,19 @@
+# Local configuration and generated output
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+backend/target/
+.idea/
+.vscode/
+*.log
+playwright-report/
+test-results/
+.DS_Store
+
+# Existing exclusion from feature/agent-skills
+docs/Offre-IBM-Consultant-Junior-SAP-HANA-Application-Security (1).txt
+# Browser CLI artifacts (snapshots may contain future session data)
+output/playwright/
+.playwright-cli/

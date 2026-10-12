@@ -1,0 +1,3 @@
+# Same database/security settings; Compose supplies environment variables.
+server:
+  port: 8080
