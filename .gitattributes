@@ -3,3 +3,8 @@
 mvnw text eol=lf
 *.sh text eol=lf
 *.jar binary
+.agents/skills/** text=auto eol=lf
+.agents/skills/playwright/LICENSE.txt text eol=crlf
+# Preserve known upstream Markdown whitespace; validate vendor content by SHA-256.
+.agents/skills/security-best-practices/references/*.md whitespace=-blank-at-eol
+.agents/skills/security-threat-model/references/*.md whitespace=-blank-at-eol
